@@ -28,7 +28,7 @@ Books::Books(QWidget *parent)
          return ;
     }
     else
-        qDebug() << "zajebiscie";
+        qDebug() << "database is opened";
 
     model = new QSqlTableModel(this, db);
     model->setTable("Person");
